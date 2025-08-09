@@ -11,56 +11,84 @@
       max-width: 800px;
       margin: auto;
       line-height: 1.6;
-      background-color: #f9f9f9;
+      background-color: #F5F7FA;
       color: #333;
     }
-    h1, h2 {
-      color: #0066cc;
-    }
+    h1, h2 { color: #1E88E5; }
+    ul { margin-left: 1.2rem; }
+    small { color:#666; }
   </style>
 </head>
 <body>
   <h1>Política de Privacidade – BancaFácil</h1>
-  <p><strong>Última atualização:</strong> 04 de agosto de 2025</p>
+  <p><strong>Última atualização:</strong> 09 de agosto de 2025</p>
 
   <p>A sua privacidade é importante para nós. Esta Política de Privacidade explica como o aplicativo <strong>BancaFácil</strong>, desenvolvido pela <strong>Haltt Games</strong>, coleta, usa e protege os dados dos usuários.</p>
 
-  <h2>1. Coleta de Informações</h2>
-  <p>O aplicativo <strong>não coleta informações pessoais sensíveis</strong> como nome, CPF, e-mail ou localização.</p>
-  <p>As únicas informações armazenadas são:</p>
+  <h2>1. O que coletamos</h2>
+  <p>O BancaFácil pode ser usado normalmente <strong>sem login</strong>. Ao utilizar sem conta, não coletamos dados pessoais; apenas salvamos informações <strong>localmente</strong> no seu dispositivo.</p>
+  <p>Se você optar por <strong>entrar</strong> (login), coletaremos os seguintes dados de autenticação:</p>
   <ul>
-    <li>Valores inseridos manualmente pelo usuário (banca, apostas, resultados)</li>
-    <li>Preferências de tema e notificações</li>
+    <li><strong>E‑mail</strong> (apenas para login por e‑mail/senha ou Google)</li>
+    <li><strong>Nome de exibição</strong> (se fornecido por você ou pelo Google)</li>
+    <li><strong>Foto de perfil (URL)</strong> quando disponível pelo provedor (Google)</li>
+    <li><strong>UID</strong> técnico gerado pelo Firebase Authentication</li>
   </ul>
-  <p>Esses dados ficam armazenados <strong>apenas localmente</strong> no dispositivo.</p>
-
-  <h2>2. Uso das Informações</h2>
-  <p>Os dados inseridos servem exclusivamente para gerar relatórios e acompanhar a evolução da banca.</p>
-  <p>No futuro, funcionalidades Premium poderão incluir backup em nuvem, com consentimento explícito.</p>
-
-  <h2>3. Compartilhamento de Dados</h2>
-  <p><strong>BancaFácil não compartilha dados com terceiros</strong>.</p>
-  <p>Nenhuma informação é vendida ou transferida a outras empresas.</p>
-
-  <h2>4. Permissões do Aplicativo</h2>
-  <p>O app pode solicitar permissão para:</p>
+  <p>No <strong>login anônimo</strong> não coletamos e‑mail, nome ou foto; somente um UID técnico é criado para permitir recursos opcionais.</p>
+  <p>Além disso, o app armazena localmente:</p>
   <ul>
-    <li>Enviar notificações diárias (opcional e controlado pelo usuário)</li>
+    <li>Registros de banca inseridos por você (banca inicial, aposta do dia, banca final, observações)</li>
+    <li>Preferências (tema, idioma, notificações e horário)</li>
+    <li>Informações técnicas mínimas do dispositivo (fabricante/modelo) usadas apenas para orientar ajustes de permissões/bateria</li>
   </ul>
 
-  <h2>5. Segurança</h2>
-  <p>Os dados são armazenados localmente com boas práticas de segurança.</p>
-  <p><strong>Não há transmissão de dados pela internet</strong>, exceto em futuras atualizações com autorização do usuário.</p>
-
-  <h2>6. Direitos do Usuário</h2>
+  <h2>2. Para que usamos seus dados</h2>
   <ul>
-    <li>Limpar dados dentro do app</li>
-    <li>Desinstalar o app para remover completamente os dados</li>
+    <li><strong>Autenticação</strong>: permitir que você entre no app e gerencie sua conta (Google, e‑mail/senha ou anônimo).</li>
+    <li><strong>Experiência do usuário</strong>: exibir seu nome/foto (quando fornecidos) e manter preferências.</li>
+    <li><strong>Futuro backup/sincronização</strong>: caso você ative quando for lançado; somente com consentimento explícito.</li>
+  </ul>
+  <p><strong>Não vendemos</strong> seus dados. Não utilizamos seus dados de login para marketing.</p>
+
+  <h2>3. Onde os dados ficam</h2>
+  <ul>
+    <li><strong>Dados de uso (registros de banca e preferências):</strong> armazenados <strong>apenas no seu dispositivo</strong> na versão atual.</li>
+    <li><strong>Dados de autenticação:</strong> processados e mantidos pelo <strong>Firebase Authentication</strong> (Google), conforme as políticas do provedor.</li>
   </ul>
 
-  <h2>7. Contato</h2>
+  <h2>4. Compartilhamento com terceiros</h2>
+  <ul>
+    <li><strong>Firebase Authentication (Google)</strong> – para login (Google, e‑mail/senha, anônimo).</li>
+    <li><strong>Google AdMob</strong> – para exibição de anúncios. Pode coletar identificadores de dispositivo e dados de uso de forma independente. Consulte a <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Política de Privacidade da Google</a>.</li>
+  </ul>
+
+  <h2>5. Notificações e tarefas em segundo plano</h2>
+  <p>O app pode enviar <strong>notificações diárias</strong> agendadas localmente. Você pode habilitar/desabilitar e alterar o horário a qualquer momento nas configurações do app.</p>
+
+  <h2>6. Segurança</h2>
+  <p>Empregamos boas práticas para proteger informações locais no dispositivo. Dados de autenticação são protegidos pelas medidas de segurança do <strong>Firebase</strong>.</p>
+
+  <h2>7. Seus direitos</h2>
+  <ul>
+    <li><strong>Usar sem conta</strong>: você pode utilizar o app sem login.</li>
+    <li><strong>Sair</strong>: você pode encerrar a sessão a qualquer momento pelo menu “Minha conta”.</li>
+    <li><strong>Editar seu perfil</strong>: você pode alterar nome de exibição quando estiver logado.</li>
+    <li><strong>Apagar dados locais</strong>: você pode limpar registros dentro do app; desinstalar remove todos os dados do dispositivo.</li>
+    <li><strong>Revogar permissões</strong>: controle notificações e permissões nas configurações do sistema.</li>
+    <li><strong>Exclusão de conta</strong>: quando a funcionalidade de exclusão/backup em nuvem estiver disponível, ofereceremos meios para solicitar exclusão dos dados na nuvem e desvincular provedores.</li>
+  </ul>
+
+  <h2>8. Crianças</h2>
+  <p>O BancaFácil não é direcionado a menores de 13 anos e não coleta intencionalmente dados de crianças.</p>
+
+  <h2>9. Alterações nesta política</h2>
+  <p>Podemos atualizar esta Política para refletir mudanças no app (por exemplo, ativação do backup em nuvem). Publicaremos a nova versão com a data de atualização.</p>
+
+  <h2>10. Contato</h2>
   <p>Dúvidas? Fale com a gente:</p>
   <p>Email: <a href="mailto:bancafacil@haltt.io">bancafacil@haltt.io</a><br>
-     Site: <a href="https://game.haltt.io" target="_blank">https://game.haltt.io</a></p>
+     Site: <a href="https://game.haltt.io" target="_blank" rel="noopener">https://game.haltt.io</a></p>
+
+  <p><small>Controlador de dados: Haltt Games. Serviços de terceiros: Google Firebase (Authentication), Google AdMob.</small></p>
 </body>
 </html>
